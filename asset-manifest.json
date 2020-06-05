@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/NotNFL/static/css/main.5de1958c.chunk.css",
-    "main.js": "/NotNFL/static/js/main.c55bb448.chunk.js",
-    "main.js.map": "/NotNFL/static/js/main.c55bb448.chunk.js.map",
+    "main.js": "/NotNFL/static/js/main.1b1a5b76.chunk.js",
+    "main.js.map": "/NotNFL/static/js/main.1b1a5b76.chunk.js.map",
     "runtime-main.js": "/NotNFL/static/js/runtime-main.9d5d65ae.js",
     "runtime-main.js.map": "/NotNFL/static/js/runtime-main.9d5d65ae.js.map",
     "static/js/2.86d3fe4b.chunk.js": "/NotNFL/static/js/2.86d3fe4b.chunk.js",
     "static/js/2.86d3fe4b.chunk.js.map": "/NotNFL/static/js/2.86d3fe4b.chunk.js.map",
     "index.html": "/NotNFL/index.html",
-    "precache-manifest.2c7371f23476b0d2593446542f62e583.js": "/NotNFL/precache-manifest.2c7371f23476b0d2593446542f62e583.js",
+    "precache-manifest.a6a7d489173209ad8055758243161fb3.js": "/NotNFL/precache-manifest.a6a7d489173209ad8055758243161fb3.js",
     "service-worker.js": "/NotNFL/service-worker.js",
     "static/css/main.5de1958c.chunk.css.map": "/NotNFL/static/css/main.5de1958c.chunk.css.map",
     "static/js/2.86d3fe4b.chunk.js.LICENSE.txt": "/NotNFL/static/js/2.86d3fe4b.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.9d5d65ae.js",
     "static/js/2.86d3fe4b.chunk.js",
     "static/css/main.5de1958c.chunk.css",
-    "static/js/main.c55bb448.chunk.js"
+    "static/js/main.1b1a5b76.chunk.js"
   ]
 }
