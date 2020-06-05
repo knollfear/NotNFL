@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf4f5885532daf308da49b2f35710740",
+    "revision": "6a6c38a21d498c9f3828985d6d78dbf2",
     "url": "/NotNFL/index.html"
   },
   {
-    "revision": "8f207ef4743af9a9bae1",
+    "revision": "272005d3d803b55c7846",
     "url": "/NotNFL/static/css/main.5de1958c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NotNFL/static/js/2.86d3fe4b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8f207ef4743af9a9bae1",
-    "url": "/NotNFL/static/js/main.8ee2098b.chunk.js"
+    "revision": "272005d3d803b55c7846",
+    "url": "/NotNFL/static/js/main.54b76b78.chunk.js"
   },
   {
     "revision": "970db6fcd13224f857a6",
