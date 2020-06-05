@@ -49,6 +49,7 @@ class GameContainer extends React.Component {
         state.card = possibleCards;
         state.activeCard = possibleCards[0];
         state.activeCards = possibleCards.slice(0, 4);
+        state.activeCards.forEach(card =>{ card.isCorrect = false});
         this.setState(state)
 
     }
@@ -95,7 +96,8 @@ class GameContainer extends React.Component {
 
     changeRule = (score) =>{
 
-        const numRules = Math.min(Rules.length, Math.floor(score / 5));
+        const numRules = Math.min(Rules.length, Math.floor(1 + (score / 5)));
+        console.log(numRules);
         let currentRule = Rules[Math.floor(Math.random() * numRules)];
         //let currentRule = Rules[4];
         let possibleCards = this.state.cards;
@@ -103,6 +105,7 @@ class GameContainer extends React.Component {
         let activeCard = possibleCards[0];
         let activeCards = possibleCards.slice(0, Math.floor(score / 4) + 4);
         shuffle(activeCards);
+        activeCards.forEach(card =>{ card.isCorrect = false});
         let isNot = (Math.floor(Math.random() * 10) % 2 === 0);
 
         this.setState({ score, currentRule, possibleCards, activeCard, activeCards, isNot})
@@ -122,20 +125,20 @@ class GameContainer extends React.Component {
         return (
             this.state.cards ?
                 <React.Fragment>
-                    <div className={'header'}>Fear Not!</div>
-                    {this.state.endGame ?
+                    <div className={'header'}>Not Football League</div>
+                    {this.state.endGame &&
 
-                    <div >
-                        <div>Great Job.  You scored: {this.state.prevScore}</div>
-                        <button onClick={()=>{this.startNewGame()}}>New Game?</button>
-                    </div>
-:
-                    <div className={`rule ${this.state.isNot && 'not'}`}>
-                        {this.state.currentRule.text(this.state.activeCard, this.state.isNot)}
-                    </div>
-
+                        <div >
+                            <div>Great Job.  You scored: {this.state.prevScore}</div>
+                            <button onClick={()=>{this.startNewGame()}}>New Game?</button>
+                        </div>
                     }
-                    < GameArea cards={this.state.activeCards} clickHandler={this.clickHandler} rule={this.state.currentRule}/>
+                    <div className={'gameArea'}>
+                        <div className={`rule ${this.state.isNot && 'not'}`}>
+                            {this.state.currentRule.text(this.state.activeCard, this.state.isNot)}
+                        </div>
+                        <GameArea cards={this.state.activeCards} clickHandler={this.clickHandler} rule={this.state.currentRule}/>
+                    </div>
                     <Footer
                         score={this.state.score}
                         prevScore={this.state.prevScore}
