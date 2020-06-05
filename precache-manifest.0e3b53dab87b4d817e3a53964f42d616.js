@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a6c38a21d498c9f3828985d6d78dbf2",
+    "revision": "3b35fe95bece7eadcbb653ac35cdb61c",
     "url": "/NotNFL/index.html"
   },
   {
-    "revision": "272005d3d803b55c7846",
-    "url": "/NotNFL/static/css/main.5de1958c.chunk.css"
+    "revision": "83b27288c102cb08a413",
+    "url": "/NotNFL/static/css/main.354036f5.chunk.css"
   },
   {
-    "revision": "3cb0d777fb8b5c5c87f7",
-    "url": "/NotNFL/static/js/2.86d3fe4b.chunk.js"
+    "revision": "87e62d93fd5dddaeee9e",
+    "url": "/NotNFL/static/js/2.ffea71cc.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/NotNFL/static/js/2.86d3fe4b.chunk.js.LICENSE.txt"
+    "url": "/NotNFL/static/js/2.ffea71cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "272005d3d803b55c7846",
-    "url": "/NotNFL/static/js/main.54b76b78.chunk.js"
+    "revision": "83b27288c102cb08a413",
+    "url": "/NotNFL/static/js/main.062e5843.chunk.js"
   },
   {
     "revision": "970db6fcd13224f857a6",

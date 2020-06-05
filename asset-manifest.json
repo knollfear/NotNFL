@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/NotNFL/static/css/main.5de1958c.chunk.css",
-    "main.js": "/NotNFL/static/js/main.54b76b78.chunk.js",
-    "main.js.map": "/NotNFL/static/js/main.54b76b78.chunk.js.map",
+    "main.css": "/NotNFL/static/css/main.354036f5.chunk.css",
+    "main.js": "/NotNFL/static/js/main.062e5843.chunk.js",
+    "main.js.map": "/NotNFL/static/js/main.062e5843.chunk.js.map",
     "runtime-main.js": "/NotNFL/static/js/runtime-main.9d5d65ae.js",
     "runtime-main.js.map": "/NotNFL/static/js/runtime-main.9d5d65ae.js.map",
-    "static/js/2.86d3fe4b.chunk.js": "/NotNFL/static/js/2.86d3fe4b.chunk.js",
-    "static/js/2.86d3fe4b.chunk.js.map": "/NotNFL/static/js/2.86d3fe4b.chunk.js.map",
+    "static/js/2.ffea71cc.chunk.js": "/NotNFL/static/js/2.ffea71cc.chunk.js",
+    "static/js/2.ffea71cc.chunk.js.map": "/NotNFL/static/js/2.ffea71cc.chunk.js.map",
     "index.html": "/NotNFL/index.html",
-    "precache-manifest.868fa6e689c7e3902a55fd499dd53be5.js": "/NotNFL/precache-manifest.868fa6e689c7e3902a55fd499dd53be5.js",
+    "precache-manifest.0e3b53dab87b4d817e3a53964f42d616.js": "/NotNFL/precache-manifest.0e3b53dab87b4d817e3a53964f42d616.js",
     "service-worker.js": "/NotNFL/service-worker.js",
-    "static/css/main.5de1958c.chunk.css.map": "/NotNFL/static/css/main.5de1958c.chunk.css.map",
-    "static/js/2.86d3fe4b.chunk.js.LICENSE.txt": "/NotNFL/static/js/2.86d3fe4b.chunk.js.LICENSE.txt",
+    "static/css/main.354036f5.chunk.css.map": "/NotNFL/static/css/main.354036f5.chunk.css.map",
+    "static/js/2.ffea71cc.chunk.js.LICENSE.txt": "/NotNFL/static/js/2.ffea71cc.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/NotNFL/static/media/logo.9b1b5ea4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9d5d65ae.js",
-    "static/js/2.86d3fe4b.chunk.js",
-    "static/css/main.5de1958c.chunk.css",
-    "static/js/main.54b76b78.chunk.js"
+    "static/js/2.ffea71cc.chunk.js",
+    "static/css/main.354036f5.chunk.css",
+    "static/js/main.062e5843.chunk.js"
   ]
 }
